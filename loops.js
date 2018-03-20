@@ -23,6 +23,7 @@ function maybeTrue() {
 
 function doWhileLoop(array){
   do {
+    console.log(array);
     array.pop();
     console.log(array);
     console.log(maybeTrue())
