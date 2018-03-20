@@ -25,6 +25,6 @@ function doWhileLoop(array){
   do {
     console.log(array);
     --array.length;
-    console.log('array length modified to:' + array.length);}
+    console.log('array length modified to: ' + array.length);}
     while (array.length > 0 && maybeTrue() );
 }
